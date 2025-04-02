@@ -1,1 +1,62 @@
-new
+# Milestone Project - C++ Program
+
+## Overview
+
+This milestone project in C++ focuses on creating a program with key features such as handling data errors, integrating external data sources (like Paris data), and implementing AI prompt tracking. The program is organized in multiple files to maintain modularity and ease of maintenance.
+
+## Features
+
+- **Data Handling**: The program can process various types of data, handling errors and unexpected inputs.
+- **Paris Data Integration**: The project demonstrates how to integrate external data into the system.
+- **AI Prompt Tracking**: Tracks inputs and outputs through the AI system for later analysis.
+- **Modular Design**: The project is broken down into multiple source and header files, with clear separation of concerns.
+
+## Requirements
+
+- C++ compiler (e.g., g++ or clang++)
+- Any external libraries or dependencies will be listed here (if applicable).
+
+## Setup Instructions
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/codebykhassan/Milestone_Project.git
+
+## Navigate to the project directory:
+  cd Milestone_Project
+## Compile the C++ program using your compiler:
+  g++ -o program main.cpp
+## Run the program:
+  ./program
+## Project Structure
+
+├── Book.cpp         # Source file for Book class implementation
+├── Book.h           # Header file for Book class
+├── Date.cpp         # Source file for Date class implementation
+├── Date.h           # Header file for Date class
+├── Lib.h            # Library header file
+├── LibApp.cpp       # Source file for LibApp class implementation
+├── LibApp.h         # Header file for LibApp class
+├── Publication.cpp  # Source file for Publication class implementation
+├── Publication.h    # Header file for Publication class
+├── Streamable.cpp   # Source file for Streamable class implementation
+├── Streamable.h     # Header file for Streamable class
+├── Utils.cpp        # Source file for utility functions
+├── Utils.h          # Header file for utility function declarations
+
+## Known Issues
+
+List any known issues or limitations here.
+Future Work
+
+Planned features or improvements for future milestones.
+Contributing
+
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature-name).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-name).
+Create a new Pull Request.
+## License
+
+This project is licensed under the Khassan Suleimanov - see the LICENSE file for details.
